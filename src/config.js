@@ -75,15 +75,15 @@ const config = {
 
         ],
         tryProjects: [
-            /*{
-                image: "cryptocowrie-app.png",
-                link: "https://app.cryptocowries.io/login",
-                title: "CryptoCowries app",
-                description: "This project is primarily an app for buying, depositing and withdrawing crypto-currencies.",
-                date: "Still in development",
-                techStack: ["HTML", "CSS", "Typescript", "Tailwind", "React"]
-            },
             {
+                image: "Semantick.png",
+                link: "https://www.cloudblogger.eu/2023/10/18/semantic-kernel-container-apps-with-react-and-python/",
+                title: "SEMANTIC KERNEL: CONTAINER APPS WITH REACT AND PYTHON",
+                description: "Build your custom AI Solution integrating Semantic Kernel into your Azure Container Apps.",
+                date: moment(new Date("2023-10-18"), "YYYYMMDD").fromNow(),
+                techStack: ["HTML", "Python", "React", "Azure", "Azure Container Apps", "Azure Open AI", "Azure Functions", "Azure Storage", "Azure Web App"]
+            },
+            /*{
                 image: "atompay-app.png",
                 link: "https://test-paydunya-atompay.vercel.app/",
                 title: "Atompay app",
@@ -92,12 +92,12 @@ const config = {
                 techStack: ["HTML", "JavaScript", "React", "Tailwind"]
             },
             {
-                image: "inventor-app.png",
-                link: "http://45.134.226.100/",
-                title: "Inventor app",
-                description: "This project is a property management application for businesses.",
-                date: moment(new Date("2022-12-13"), "YYYYMMDD").fromNow(),
-                techStack: ["HTML", "JavaScript", "React", "Bootstrap 4"]
+                image: "Semantick.png",
+                link: "https://www.cloudblogger.eu/2023/10/18/semantic-kernel-container-apps-with-react-and-python/",
+                title: "SEMANTIC KERNEL: CONTAINER APPS WITH REACT AND PYTHON",
+                description: "Build your custom AI Solution integrating Semantic Kernel into your Azure Container Apps.",
+                date: moment(new Date("2023-10-18"), "YYYYMMDD").fromNow(),
+                techStack: ["HTML", "Python", "React", "Azure", "Azure Container Apps", "Azure Open AI", "Azure Functions", "Azure Storage", "Azure Web App"]
             },
             {
                 image: "react-tailwindcss-datepicker.png",
