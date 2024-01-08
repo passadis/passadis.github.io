@@ -83,15 +83,15 @@ const config = {
                 date: moment(new Date("2023-10-18"), "YYYYMMDD").fromNow(),
                 techStack: ["HTML", "Python", "React", "Azure", "Azure Container Apps", "Azure Open AI", "Azure Functions", "Azure Storage", "Azure Web App"]
             },
-            /*{
-                image: "atompay-app.png",
-                link: "https://test-paydunya-atompay.vercel.app/",
-                title: "Atompay app",
-                description: "It's an application for transferring money as part of a challenge. All data used in this application is false.",
-                date: moment(new Date("2023-02-21"), "YYYYMMDD").fromNow(),
-                techStack: ["HTML", "JavaScript", "React", "Tailwind"]
-            },
             {
+                image: "vision-ai.png",
+                link: "https://www.cloudblogger.eu/2023/10/06/azure-vision-ai-object-detection-web-app-with-docker-and-container-registry//",
+                title: "Azure Vision AI – Object Detection Web App with Docker and Container Registry",
+                description: "Build a Python Container Image and Deploy via Azure Container Registry to Azure Web Apps for Object Detection. Terraform Docker, and Scripts.",
+                date: moment(new Date("2023-10-06"), "YYYYMMDD").fromNow(),
+                techStack: ["Python", "Docker", "HTML", "Terraform", 'Azure Vision AI', "Azure Container Registry", "Azure Web App"]
+            },
+            /*{
                 image: "Semantick.png",
                 link: "https://www.cloudblogger.eu/2023/10/18/semantic-kernel-container-apps-with-react-and-python/",
                 title: "SEMANTIC KERNEL: CONTAINER APPS WITH REACT AND PYTHON",
