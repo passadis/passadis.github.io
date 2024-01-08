@@ -58,7 +58,7 @@ const config = {
                 icon: (<EnvelopeIcon className="h-4 w-4"/>)
             },
         ],
-        techStack: ["Azure", "Kubernetes", "NodeJS", "React.js", "SQL", "Git", "CSS", "Python"],
+        techStack: ["Azure", "Terraform", "AWS", "GCP", "Kubernetes", "NodeJS", "React.js", "SQL", "Git", "DevOps", "CSS", "Python"],
         experience: [
             {
                 period: "2000 - Today",
