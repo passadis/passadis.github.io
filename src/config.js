@@ -91,15 +91,15 @@ const config = {
                 date: moment(new Date("2023-10-06"), "YYYYMMDD").fromNow(),
                 techStack: ["Python", "Docker", "HTML", "Terraform", 'Azure Vision AI', "Azure Container Registry", "Azure Web App"]
             },
-            {
+            /*{
                 image: "SearchDesign.png",
                 link: "https://www.cloudblogger.eu/2023/10/18/semantic-kernel-container-apps-with-react-and-python/",
                 title: "Identity System with Azure SQL and Azure Web Apps",
                 description: "Create a custom User Registration and Login System with Azure SQL and Web Apps API.",
                 date: moment(new Date("2023-12-23"), "YYYYMMDD").fromNow(),
-                techStack: ["Azure", "React", "NodeJS", "Docker", "Azure Web Apps", "Azure Container Registry", "Azure SQL", "Azure Storage"]
+                techStack: ["Azure", "React", "Azure Web Apps", "Azure Container Registry", "Azure SQL", "Azure Storage", "Azure Web App"]
             },
-           /* {
+            {
                 image: "react-tailwindcss-datepicker.png",
                 link: "https://react-tailwindcss-datepicker.vercel.app/",
                 title: "React Tailwindcss Datepicker",
