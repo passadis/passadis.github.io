@@ -66,7 +66,7 @@ const config = {
                 institution: ""
             },
         ],
-        education: [
+        eduction: [
             {
                 period: "1977 - Today",
                 position: "Learner",
@@ -89,17 +89,17 @@ const config = {
                 title: "Azure Vision AI – Object Detection Web App with Docker and Container Registry",
                 description: "Build a Python Container Image and Deploy via Azure Container Registry to Azure Web Apps for Object Detection. Terraform Docker, and Scripts.",
                 date: moment(new Date("2023-10-06"), "YYYYMMDD").fromNow(),
-                techStack: ["Python", "Docker", "HTML", "Terraform", 'Azure Vision AI', "Azure Container Registry", "Azure Web App"]
+                techStack: ["Python", "Docker", "HTML", "Terraform", "Azure Vision AI", "Azure Container Registry", "Azure Web App"]
             },
-            /*{
+            {
                 image: "SearchDesign.png",
                 link: "https://www.cloudblogger.eu/2023/10/18/semantic-kernel-container-apps-with-react-and-python/",
                 title: "Identity System with Azure SQL and Azure Web Apps",
                 description: "Create a custom User Registration and Login System with Azure SQL and Web Apps API.",
                 date: moment(new Date("2023-12-23"), "YYYYMMDD").fromNow(),
-                techStack: ["Azure", "React", "Azure Web Apps", "Azure Container Registry", "Azure SQL", "Azure Storage", "Azure Web App"]
+                techStack: ["Azure", "React", "Azure Web Apps", "Azure Container Registry", "Azure SQL", "Azure Storage"]
             },
-            {
+            /*{
                 image: "react-tailwindcss-datepicker.png",
                 link: "https://react-tailwindcss-datepicker.vercel.app/",
                 title: "React Tailwindcss Datepicker",
