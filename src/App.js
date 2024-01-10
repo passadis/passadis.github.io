@@ -15,6 +15,8 @@ import React from "react";
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import rehypeRaw from 'rehype-raw';
+
 
 /*const App = () => {
     const {profile} = config;
@@ -102,7 +104,9 @@ const ReadmeCarousel = ({ readmes }) => {
         <Slider {...settings}>
             {readmes.map((readme, index) => (
                 <div key={index} className="readme-slide">
-                    <ReactMarkdown>{readme.content}</ReactMarkdown>
+                    <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+                        {readme.content}
+                    </ReactMarkdown>
                 </div>
             ))}
         </Slider>
