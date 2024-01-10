@@ -99,15 +99,15 @@ const config = {
                 date: moment(new Date("2023-12-23"), "YYYYMMDD").fromNow(),
                 techStack: ["Azure", "React", "Azure Web Apps", "Azure Container Registry", "Azure SQL", "Azure Storage"]
             },
-            /*{
-                image: "react-tailwindcss-datepicker.png",
-                link: "https://react-tailwindcss-datepicker.vercel.app/",
-                title: "React Tailwindcss Datepicker",
-                description: "Modern date range picker component for React using Tailwind 3 and dayjs. Alternative to Litepie Datepicker.",
-                date: moment(new Date("2022-11-18"), "YYYYMMDD").fromNow(),
-                techStack: ["JavaScript", "TypeScript", "React", "Next", "Tailwindcss"]
-            },
             {
+                image: "cosmosdbgraph.png",
+                link: "https://www.cloudblogger.eu/2023/03/06/import-ad-users-from-html-form-using-cosmosdb-and-azure-functions/",
+                title: "Import AD Users from HTML Form using CosmosDB and Azure Functions",
+                description: "We can import Users from HTML into Cosmos DB with an HTTP Trigger, Azure Functions and DevOps! Just give them the URL to enter simple details like First Name , Last Name and a nickname.",
+                date: moment(new Date("2023-03-06"), "YYYYMMDD").fromNow(),
+                techStack: ["Azure", "HTML", "CSS", "Dotnet", "Powershell","NodeJS"]
+            },
+            /*{
                 image: "git-profile.png",
                 link: "https://git-profile-red.vercel.app/",
                 title: "Git Profile",
