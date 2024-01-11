@@ -1,24 +1,11 @@
-import config from "./config";
-import Resume from "./components/Resume";
-import Contact from "./components/Contact";
-import TechStack from "./components/TechStack";
-import ChangeTheme from "./components/ChangeTheme";
-import Experience from "./components/Experience";
-import {CardTitle, ProjectsContainer} from "./components/utils";
-import Project from "./components/Project";
-import TryProjects from "./components/TryProjects";
-import {useFetchData} from "./hooks";
-import React, { useEffect, useState } from 'react';
-import {SkeletonProject} from "./components/SkeletonProject";
-import Footer from "./components/Footer";
+import React, { useEffect, useState, useMemo } from 'react';
+import config from './config'; // Import the 'config' object from the appropriate file
 
-/*const App = () => {
-    const {profile} = config;
-    const [data, loading] = useFetchData(`https://api.github.com/search/repositories?q=user:${profile.username}+fork:true&sort=stars&per_page=6&type=Repositories`);
-*/
 const App = () => {
     const { profile } = config;
-    const specificRepos = ['python-aivision', 'learning-aid', 'CosmosDB-ADUsers', 'azure-keyvault-pinlogin', 'react-customidentitydb']; // Moved outside useEffect
+
+    const specificRepos = useMemo(() => ['python-aivision', 'learning-aid', 'CosmosDB-ADUsers', 'azure-keyvault-pinlogin', 'react-customidentitydb'], []);
+
     const [specificReposData, setSpecificReposData] = useState([]);
     const [loading, setLoading] = useState(true);
 
