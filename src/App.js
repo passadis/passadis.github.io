@@ -50,7 +50,7 @@ const App = () => {
                     <Contact/>
                     <TechStack/>
                     <Experience title={"Experience"} data={profile.experience}/>
-                    <Experience title={"Education"} data={profile.education}/>
+                    <Experience title={"Education"} data={profile.eduction}/>
                 </div>
                 <div className="w-full lg:w-4/6 space-y-6">
                     <ProjectsContainer>
