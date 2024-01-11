@@ -18,7 +18,7 @@ import Footer from "./components/Footer";
 */
 const App = () => {
     const { profile } = config;
-    const specificRepos = ['python-aivision', 'learning-aid', 'CosmosDB-ADUsers', 'AzureMonitorCommunity', 'react-customidentitydb']; // Moved outside useEffect
+    const specificRepos = ['python-aivision', 'learning-aid', 'CosmosDB-ADUsers', 'azure-keyvaultpinlogin' 'AzureMonitorCommunity', 'react-customidentitydb']; // Moved outside useEffect
     const [specificReposData, setSpecificReposData] = useState([]);
     const [loading, setLoading] = useState(true);
 

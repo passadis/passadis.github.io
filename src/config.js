@@ -107,15 +107,15 @@ const config = {
                 date: moment(new Date("2023-03-06"), "YYYYMMDD").fromNow(),
                 techStack: ["Azure", "HTML", "CSS", "Dotnet", "Powershell","NodeJS"]
             },
-            /*{
-                image: "git-profile.png",
-                link: "https://git-profile-red.vercel.app/",
-                title: "Git Profile",
-                description: "This project presents some data from my GitHub and some project you can try.",
-                date: moment(new Date("2022-11-03"), "YYYYMMDD").fromNow(),
-                techStack: ["JavaScript", "React", "HTML", "Tailwindcss"]
-            },
             {
+                image: "keyvault.png",
+                link: "https://www.cloudblogger.eu/2023/12/13/azure-key-vaultsecuring-your-digital-assets/",
+                title: "Azure Key Vault:Securing Your Digital Assets",
+                description: "Unveiling the Power of Azure Key Vault with PIN Authentication and Username – Password Matching.",
+                date: moment(new Date("2022-11-03"), "YYYYMMDD").fromNow(),
+                techStack: ["Azure","Python", "HTML", "CSS", "Azure Key Vault", "Azure Web Apps"]
+            },
+            /*{
                 image: "react-headless-accordion.png",
                 link: "https://react-nested-accordion.vercel.app/",
                 title: "Example usage react-headless-accordion",
