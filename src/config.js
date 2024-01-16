@@ -115,15 +115,15 @@ const config = {
                 date: moment(new Date("2022-11-03"), "YYYYMMDD").fromNow(),
                 techStack: ["Azure","Python", "HTML", "CSS", "Azure Key Vault", "Azure Web Apps"]
             },
-            /*{
-                image: "react-headless-accordion.png",
-                link: "https://react-nested-accordion.vercel.app/",
-                title: "Example usage react-headless-accordion",
-                description: "This project presents some use cases of my react-headless-accordion package.",
-                date: moment(new Date("2022-10-17"), "YYYYMMDD").fromNow(),
-                techStack: ["JavaScript", "React", "HTML", "Tailwindcss"]
-            },
             {
+                image: "gptapi.png",
+                link: "https://www.cloudblogger.eu/2023/12/30/azure-container-apps-apis-redis-cache-and-microservices-with-openai-chat-completions/",
+                title: "Azure Container Apps: APIs, Redis Cache and Microservices with OpenAI Chat Completions",
+                description: "Build your API Endpoints and serve your Web Apps with the power of Container Apps.",
+                date: moment(new Date("2023-12-30"), "YYYYMMDD").fromNow(),
+                techStack: ["Azure", "Python", "HTML", "Docker", "Azure Container Apps", "Open AI"]
+            },
+            /*{
                 image: "react-tailwindcss-select.png",
                 link: "https://demo-react-tailwindcss-select.vercel.app/",
                 title: "Demo of react-tailwindcss-select",
