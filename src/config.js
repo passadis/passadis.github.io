@@ -42,7 +42,7 @@ const config = {
             },
 
             {
-                link: null,
+                link: "https://cloudblogger.eu",
                 data: {
                     text: "Website",
                     value: "https://cloudblogger.eu"
