@@ -16,10 +16,10 @@ const config = {
                 icon: (<MapPinIcon className="h-4 w-4"/>)
             },
             {
-                link: "https://www.unisystems.gr/",
+                link: "https://www.epam.com/",
                 data: {
                     text: "Company",
-                    value: "Unisystems"
+                    value: "EPAM Systems"
                 },
                 icon: (<BuildingOfficeIcon className="h-4 w-4"/>)
             },
@@ -84,6 +84,14 @@ const config = {
                 techStack: ["HTML", "Python", "React", "Azure", "Azure Container Apps", "Azure Open AI", "Azure Functions", "Azure Storage", "Azure Web App"]
             },
             {
+                image: "durable-ai.png",
+                link: "https://www.cloudblogger.eu/2024/02/12/azure-ai-language-sentiment-analysis-with-durable-functions/",
+                title: "Azure AI Language: Sentiment Analysis with Durable Functions",
+                description: "Implementing Sentiment Analysis with Azure AI Language and Durable Functions.",
+                date: moment(new Date("2024-02-12"), "YYYYMMDD").fromNow(),
+                techStack: ["Azure", "Python", "Azure Web Apps", "Azure Durable Functions", "Azure AI Language"]
+            },            
+            {
                 image: "vision-ai.png",
                 link: "https://www.cloudblogger.eu/2023/10/06/azure-vision-ai-object-detection-web-app-with-docker-and-container-registry//",
                 title: "Azure Vision AI – Object Detection Web App with Docker and Container Registry",
@@ -124,12 +132,12 @@ const config = {
                 techStack: ["Azure", "Python", "HTML", "Docker", "Azure Container Apps", "Open AI"]
             },
             /*{
-                image: "react-tailwindcss-select.png",
-                link: "https://demo-react-tailwindcss-select.vercel.app/",
-                title: "Demo of react-tailwindcss-select",
-                description: "This project allows you to test the different options available in my react-tailwindcss-select package.",
+                image: "durable-ai.png",
+                link: "https://www.cloudblogger.eu/2024/02/12/azure-ai-language-sentiment-analysis-with-durable-functions/",
+                title: "Azure AI Language: Sentiment Analysis with Durable Functions",
+                description: "Implementing Sentiment Analysis with Azure AI Language and Durable Functions.",
                 date: moment(new Date("2022-07-13"), "YYYYMMDD").fromNow(),
-                techStack: ["JavaScript", "React", "HTML", "Tailwindcss"]
+                techStack: ["Azure", "Python", "Azure Web Apps", "Azure Durable Functions", "Azure AI Language"]
             },
             {
                 image: "satis-backoffice.png",

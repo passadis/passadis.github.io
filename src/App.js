@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 const App = () => {
     const { profile } = config;
 
-    const specificRepos = useMemo(() => ['python-aivision', 'learning-aid', 'CosmosDB-ADUsers', 'containerapps-api-redis', 'react-customidentitydb', 'azure-keyvault-pinlogin'], []);
+    const specificRepos = useMemo(() => ['python-aivision', 'learning-aid', 'react-multiagents-speech', 'containerapps-api-redis', 'react-customidentitydb', 'sentiment-analysis-durable'], []);
 
     const [specificReposData, setSpecificReposData] = useState([]);
     const [loading, setLoading] = useState(true);
